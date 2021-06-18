@@ -1,1 +1,67 @@
-/* css */
+/* CSS */
+
+body{
+    background-image: url(cadeado-criptografia.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color:white;
+    margin-left:2%;
+    margin-top: 2%;
+    justify-content:left;
+     
+}
+.h1{
+    color :black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ #paragrafo{
+    color :white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: size 20px;
+    text-align: center;
+
+}
+
+input,textarea,button{
+    border-radius:5px;
+    width: 200 px; 
+    height: 30px;
+    text-align: left;
+
+}
+    .campo{
+        margin-bottom: 1em;
+    }
+
+.campo label{
+    margin-bottom:1%;
+    color: #59429d;
+    display:block;
+
+}
+
+.campo input[type="number"] , .campo input[type="text"] .campo textarea{
+    padding: 0.2em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+    display:block;
+}
+
+.campo button[id="encodebutton"] , .campo button[id="decodebutton"] {
+    font-size: 1.2em;
+    background: #59429d;
+    border:0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding : 0.2em 0.6em;
+
+}
+ 
+
+input{
+    margin:2%;
+    
+}

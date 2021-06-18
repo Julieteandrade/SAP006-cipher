@@ -1,14 +1,51 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <div id="root">
-    <h1>Olá , seja bem vindo a nossa página!</h1>
+
+    <h1>MY SECURITY CODE</h1>
+    <p>UM JEITO SIMPLES DE CRIAR SENHAS SEGURAS E ORIGINAIS !</p>
+
   </div>
+
+  <form>
+
+    <div>
+
+        <label for="inputKeynumber">Ensira aqui o número da chave:</label>
+        <input type="number" nome="keynumber" id="keynumber" min="0">
+    </div>
+
+    <div>
+      <label for="mensagem">Mensagem a ser codificada:</label>
+      <input type="text" nome="mensagem" id="mensagem">
+    </div>
+
+    <div>
+      <label for="mensagem">Resultado:</label>
+      <input type="text" nome="mensagem" id="resultado">
+    </div>
+
+
+
+    <button id="encodebutton">CODIFICAR</button>
+    <button id="decodebutton">DESCODIFICAR</button>
+
+  </form>
   <script src="index.js" type="module"></script>
+  <footer>
+    <p>
+    <aside> </aside>
+
+    </p>
+  </footer>
 </body>
+
 </html>
