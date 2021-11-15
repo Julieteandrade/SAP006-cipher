@@ -7,6 +7,7 @@ const cipher = {
     }
 
     let resultEncode = "";
+    const charCodeAtletraAmaiuscula = "A".charCodeAt()
 
     for (let i = 0; i < string.length; i++) {
 
@@ -26,6 +27,7 @@ const cipher = {
 
 
   decode: function (offset, string) {
+
     const offsetVazio = !offset
     const offsetString = typeof offset != "number"
     if (offsetVazio || offsetString) {
@@ -43,7 +45,7 @@ const cipher = {
       if (decode >= 65 && decode <= 90) {
         decode = ((decode - 90 - offset) % 26) + 90
       } else if (decode >= 97 && decode <= 122) {
-        decode = ((decode - 122 - offset ) % 26) + 122
+        decode = ((decode - 122 - offset) % 26) + 122
       }
 
       resultDecode += String.fromCharCode(decode);

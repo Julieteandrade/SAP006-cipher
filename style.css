@@ -10,6 +10,8 @@ body{
     margin-left:2%;
     margin-top: 2%;
     justify-content:left;
+    background-color:rgb(7, 13, 20);
+    
 }
 
 input,textarea,button{
@@ -27,13 +29,13 @@ input{
     
 }
   
-    button{
-        margin-top:3%;
-        background-color:blueviolet;
-        padding:10px 20px;
-        color :white;
-        border-color: white;
-    
+button{
+ margin-top:3%;
+ background-color:blueviolet;
+ padding:10px 20px;
+ color :white;
+ border-color: white;
+ 
 }
 
     footer{
